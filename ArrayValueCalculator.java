@@ -20,6 +20,10 @@ public class ArrayValueCalculator {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
+        // Input type should be like
+        //6
+        //1 2 3 4 10 11
+        
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("output.txt")));
 
         int arCount = Integer.parseInt(scanner.nextLine().trim());
