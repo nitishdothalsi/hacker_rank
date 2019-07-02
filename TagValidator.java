@@ -26,5 +26,7 @@ public class TagValidator{
 
 /**************Descriptions***********************/
 //<(.+)> :matches HTML start tags. The parentheses save the contents inside the brackets into Group #1.
-//([^<]+) :matches all the text in between the HTML start and end tags. We place a special restriction on the text in that it can't have the "<" symbol. The characters inside the parenthesis are saved into Group #2.
+//([^<]+) :matches all the text in between the HTML start and end tags.
+	//We place a special restriction on the text in that it can't have the "<" symbol. 
+	//The characters inside the parenthesis are saved into Group #2.
 //</\\1> :is to match the HTML end brace that corresponds to our previous start brace. The \1 is here to match all text from Group #1.
